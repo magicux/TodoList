@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.summary {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+}
+
+.tasks {
+    flex: 2;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.task-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #0056b3;
+}
+
+ul#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+ul#taskList li {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#taskList li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+.todo-img {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
