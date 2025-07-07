@@ -1,6 +1,7 @@
 # Todo List
 
 Este proyecto es una aplicación simple de lista de tareas (Todo List) desarrollada con HTML, CSS y JavaScript.
+URL: https://magicux.github.io/TodoList/
 
 ## Características
 
@@ -30,7 +31,7 @@ TodoList/
 ## Cómo usar
 
 1. Clona o descarga este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
+2. Abre la url https://magicux.github.io/TodoList/ en tu navegador.
 3. Escribe una tarea en el campo de texto y haz clic en "Agregar Tarea".
 4. Marca una tarea como realizada con el botón ✔️ o elimínala con el botón 🗑️.
 
